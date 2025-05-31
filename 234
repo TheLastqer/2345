@@ -1,6 +1,4 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
+
 local plrs = game.Players
 local plr = plrs.LocalPlayer
 local char = plr.Character
@@ -221,7 +219,7 @@ end
 local ui = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local win = ui:CreateWindow({
-    Title = "Untitled Drill Game",
+    Title = "FxZ Hub",
     Icon = "terminal",
     Folder = nil,
     Size = UDim2.fromOffset(580, 460),
